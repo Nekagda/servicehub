@@ -1,7 +1,89 @@
-.main {
-  margin-top: 10rem;
-}
-
-h1 {
+h5 {
   margin-bottom: 1000px;
 }
+
+.main {
+  margin-top: 5rem;
+  .container {
+    display: flex;
+    padding: 1rem 10rem;
+    margin: 20px auto;
+    .left-block {
+      flex: 2;
+      position: relative;
+      .main-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .text-overlay {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        h1 {
+          font-size: 48px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+
+
+.right-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  .offer-card {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    .content{
+      .discount-label {
+        background-color: #099267;
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      span {
+        font-weight: bold;
+      }
+      .call-to-action {
+        background-color: #CB2C19;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        // font-weight: bold;
+        font-size: 0.75rem;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 10px;
+        span {
+          font-weight: bold;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .technical-repair {
+    background-color: #FCA602;
+    color: black;
+  }
+  .electric-repair {
+    background-color: #383838;
+    color: white;
+  }
+}
+
+
+
