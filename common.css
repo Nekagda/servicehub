@@ -19,13 +19,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: black;
+    background: #111;
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: #FCA602;
     border-radius: 20px;
-    border: 3px solid black;
+    border: 3px solid #111;
 }
 
 a {
